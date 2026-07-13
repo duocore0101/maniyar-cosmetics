@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-secondary/30 relative overflow-hidden">
+    <section id="about" className="hidden md:block py-24 bg-secondary/30 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <motion.div 
